@@ -39,3 +39,12 @@ Jika Anda mau, saya bisa:
 
 - Menambahkan validasi lebih ketat pada `api/chat.js`.
 - Menambahkan rate-limit atau caching sederhana untuk mengurangi biaya.
+
+---
+
+## Login demo (untuk deploy statis)
+
+- Telah ditambahkan halaman login sederhana (`login.html`) dan skrip autentikasi client-side (`js/auth.js`).
+- Demo akun: `admin / admin123` dan `user / user123`.
+- `index.html` akan mengarahkan ke `/login.html` jika tidak ada sesi.
+- Pendekatan ini hanya untuk demo atau pengujian di Vercel (static). Jangan gunakan untuk produksi — gunakan autentikasi server-side.
